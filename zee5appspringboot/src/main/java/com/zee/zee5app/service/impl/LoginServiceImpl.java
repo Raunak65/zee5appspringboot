@@ -3,7 +3,6 @@ package com.zee.zee5app.service.impl;
 import java.sql.SQLException;
 import java.util.Optional;
 
-import javax.naming.InvalidNameException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

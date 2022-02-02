@@ -7,7 +7,6 @@ import javax.naming.InvalidNameException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.zee.zee5app.dto.Register;
 import com.zee.zee5app.dto.Subscription;
 import com.zee.zee5app.exception.IdInvalidLengthException;
 import com.zee.zee5app.exception.IdNotFoundException;
@@ -15,7 +14,6 @@ import com.zee.zee5app.exception.InvalidAmountException;
 import com.zee.zee5app.exception.InvalidEmailException;
 import com.zee.zee5app.exception.InvalidPasswordException;
 import com.zee.zee5app.repository.SubscriberRepository;
-import com.zee.zee5app.repository.UserRepository;
 import com.zee.zee5app.service.SubscriberService;
 
 @Service

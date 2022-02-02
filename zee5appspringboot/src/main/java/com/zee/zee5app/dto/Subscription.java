@@ -8,7 +8,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -25,6 +24,11 @@ import lombok.ToString;
 //For customizing table
 @Table(name="subscription")
 public class Subscription implements Comparable<Subscription>{
+	@Id
+	@Column(name="subscriptionId")
+	@NotBlank
+	private String id;
+	
 	@NotBlank
 	private String regId;
 	
@@ -52,10 +56,7 @@ public class Subscription implements Comparable<Subscription>{
 	private String expiryDate;
 	
 	
-	@Id
-	@Column(name="subscriptionId")
-	@NotBlank
-	private String id;
+	
 	
 	
 	@NotNull

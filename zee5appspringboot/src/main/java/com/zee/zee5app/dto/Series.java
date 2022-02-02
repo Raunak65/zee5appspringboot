@@ -1,6 +1,5 @@
 package com.zee.zee5app.dto;
 
-import javax.naming.InvalidNameException;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,12 +10,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-import com.zee.zee5app.exception.IdInvalidLengthException;
-import com.zee.zee5app.exception.LocationNotFoundException;
-
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

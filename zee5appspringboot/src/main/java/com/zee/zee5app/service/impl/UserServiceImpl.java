@@ -16,7 +16,6 @@ import com.zee.zee5app.exception.IdInvalidLengthException;
 import com.zee.zee5app.exception.IdNotFoundException;
 import com.zee.zee5app.exception.InvalidEmailException;
 import com.zee.zee5app.exception.InvalidPasswordException;
-import com.zee.zee5app.repository.LoginRepository;
 import com.zee.zee5app.repository.UserRepository;
 import com.zee.zee5app.service.LoginService;
 import com.zee.zee5app.service.UserService;

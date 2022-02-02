@@ -8,9 +8,6 @@ import java.util.Base64;
 import java.util.Random;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
 
 
 public class PasswordUtils {
